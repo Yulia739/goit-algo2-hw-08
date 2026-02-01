@@ -109,7 +109,6 @@ def main():
 
     queries = make_queries(n, q)
 
-    # 1) Без кешу
     if array_type == "numpy":
         arr1 = base_array.copy()
     else:
